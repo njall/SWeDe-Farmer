@@ -14,7 +14,7 @@ div#xmlForm { padding: 10px 10px 0 10px; width: 100%; padding-top: 55px; left: 5
 </style>
 <style type="text/css"></style></head>
 <body onload="editorSetup();" onhelp="helpSelected();" style="">
-<script type="text/javaScript" src="./moreEdit4.js"></script>
+<script type="text/javaScript" src="./moreEdit4.js-NOT"></script>
 <div id="menuForm"><form name="menuForm" onclick="clickFormBody(this, event);">
   <select name="edit" size="1" onchange="menuChosen(this);">
   <option selected="selected" value="">Edit</option>
