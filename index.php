@@ -164,6 +164,9 @@ setSchema('@xmlns',{'#dt':'#string'});
   <input type="checkbox" name="multiple" value="multiple">repeat operation
 </form></div>
 -->
+
+<h1>Swede Farmer</h1>
+<h2>Generate a <a href="https://github.com/njall/XS-SWeDe">SWeDe</a> XML Document to describe your scientific web services</h2>
 <div id="xmlForm"><form name="xmlForm" action="http://www.datamech.com/XMLForm/formXML0200.pl?.df=html" target="_blank" onsubmit="return outputToWindow(this)" onclick="clickFormBody(this, event);" method="post">
 <div class="XMLcomplexContent" onclick="selectelm(this, event);" ondblclick="selectelm(this, event);" style="">
 <fieldset class="WebService">
