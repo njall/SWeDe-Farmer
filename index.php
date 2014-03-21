@@ -15,6 +15,7 @@ div#xmlForm { padding: 10px 10px 0 10px; width: 100%; padding-top: 55px; left: 5
 <style type="text/css"></style></head>
 <body onload="editorSetup();" onhelp="helpSelected();" style="">
 <script type="text/javaScript" src="./moreEdit4.js-NOT"></script>
+<!--
 <div id="menuForm"><form name="menuForm" onclick="clickFormBody(this, event);">
   <select name="edit" size="1" onchange="menuChosen(this);">
   <option selected="selected" value="">Edit</option>
@@ -36,7 +37,7 @@ div#xmlForm { padding: 10px 10px 0 10px; width: 100%; padding-top: 55px; left: 5
   <option value="showPreference">Preferences...</option>
 <!--
   <option value="showSchema">Schema...</option>
---> 
+--> <!--
   </select>
   <select name="operation" size="1" onchange="menuChosen(this);">
   <option selected="selected" value="">Operate on Selection</option>
@@ -55,6 +56,7 @@ div#xmlForm { padding: 10px 10px 0 10px; width: 100%; padding-top: 55px; left: 5
 <!-- 
   <option value="test">test</option>
 -->
+<!--
   </select>
     <select name="elementsMenu" size="1" class="formMenu" onchange="makeElementChosen(this);">
       <option selected="selected" value="">Make Element in Scrap</option>
@@ -156,10 +158,12 @@ setSchema('@xmlns',{'#dt':'#string'});
     // end schema
   }
 -->
+<!--
 </script>
   <br>
   <input type="checkbox" name="multiple" value="multiple">repeat operation
 </form></div>
+-->
 <div id="xmlForm"><form name="xmlForm" action="http://www.datamech.com/XMLForm/formXML0200.pl?.df=html" target="_blank" onsubmit="return outputToWindow(this)" onclick="clickFormBody(this, event);" method="post">
 <div class="XMLcomplexContent" onclick="selectelm(this, event);" ondblclick="selectelm(this, event);" style="">
 <fieldset class="WebService">
